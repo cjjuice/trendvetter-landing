@@ -1,3 +1,71 @@
 // Place all the styles related to the leads controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#feature {
+  width: 838px;
+  height: 302px;
+  margin-top: 180px;
+}
+
+  #feature #feature-inner {
+
+  }
+
+    #feature #left-welcome {
+      width: 470px;
+      height: 302px;
+    
+    }
+
+      #feature .welcome-text {
+        text-shadow: #000 0 1px 2px;
+      } 
+      
+        #feature h1 {
+          font-size: 26px;
+          margin-bottom: 3px;
+          color: black;
+        }
+
+        #feature p {
+          font-size: 20px;
+          margin-bottom: 3px;
+          color: black;
+        } 
+
+      #feature #form {
+
+
+        width: 470px;
+        height: 207px;
+        margin-top: 50px;
+        background: #fff;
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#ddd));
+        background: -webkit-linear-gradient(top,#fff 0,#ddd 100%);
+        background: -moz-linear-gradient(top,#fff 0,#ddd 100%);
+        background: -ms-linear-gradient(top,#fff 0,#ddd 100%);
+        background: -o-linear-gradient(top,#fff 0,#ddd 100%);
+        background: linear-gradient(top,#fff 0,#ddd 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+        border-left: solid 1px #eee;
+        border-right: solid 1px #eee;
+        border-bottom: solid 1px #ccc;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+        box-shadow: 0 1px 0 rgba(0,0,0,.1);
+        border-radius: 4px;
+      }
+
+      #feature h4 {
+        position: relative;
+        display: block;
+        padding: 10px 12px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #777;
+        border-bottom: 1px solid #e2e2e2;
+        -webkit-box-shadow: 0 1px 0 #fff;
+        box-shadow: 0 1px 0 #fff;
+        text-shadow: 0 1px 0 rgba(255,255,255,.6);
+      }  

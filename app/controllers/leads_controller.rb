@@ -1,7 +1,14 @@
 class LeadsController < ApplicationController
   def new
+    @lead = Lead.new
   end
 
   def create
+    @lead = Lead.create(params[:lead])
+    if @lead.save
+      redirect_to root_url, notice: "Thank you for yor interest in TrendVetter"
+    else
+      render "new"  
+    end
   end
 end

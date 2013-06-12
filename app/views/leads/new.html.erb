@@ -3,13 +3,19 @@
     <div id="left-welcome">
       <div class="welcome-text">
         <h1>We are TrendVetter.</h1>
-        <p>We create tools to help online retailers create a more personalized experence for their customers.</p> 
+        <p>We create web-based tools to help online retailers increase sales and personalize user experiences.</p>
       </div> 
       <div id="form">
         <h4>
           <strong>Interested?</strong>
           Request a demo.
         </h4> 
+        <%= form_for @lead do |f| %>
+          <%= f.text_field :name, placeholder: "Name" %>
+          <%= f.text_field :company, placeholder: "Company" %>
+          <%= f.text_field :email, placeholder: "Email" %>
+          <%= f.submit :Submit, class: "btn" %>
+        <% end %>  
       </div>
     </div>
   </div>

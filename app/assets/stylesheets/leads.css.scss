@@ -2,10 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.container {
+  height: 100%;
+}
 #feature {
   width: 838px;
-  height: 302px;
-  margin-top: 10%;
+  height: 402px;
+  margin-top: 5%;
 }
 
   #feature #feature-inner {
@@ -14,7 +17,7 @@
 
     #feature #left-welcome {
       width: 470px;
-      height: 302px;
+      height: 402px;
     
     }
 

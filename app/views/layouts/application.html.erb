@@ -20,7 +20,17 @@
 		    <a class="close" data-dismiss="alert">×</a>
 		    <%= msg %>
 		  </div>
-		<% end %>
+    <% end %>
+    <% if @lead.errors.any? %>
+      <div class="alert alert-error">
+        <h2>Oops.</h2>
+        <ul>
+          <% @lead.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div> 
+    <% end %>  
     <%= yield %>
   </div>
 </body>
